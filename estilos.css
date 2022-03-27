@@ -1,0 +1,380 @@
+body {
+    font-family: 'Zen Maru Gothic', sans-serif;
+    background-color: #dc3545;
+    height: 100vh;}
+  
+  * {
+    margin: 0px; }
+  
+  /*HEADER////////////////////////////////////////////////// */
+  .headers {
+    display: grid;
+    grid-template-areas: "logo tituloP"
+   "logo subTitulo"; }
+  
+  #logo {
+    grid-area: logo;
+    display: flex;
+    justify-content: center; }
+  
+  #tituloP{
+    grid-area: tituloP;
+    display: flex;
+    padding-top: 15px; }
+  
+  #subTitulo {
+    grid-area: subTitulo;
+    display: flex;
+    justify-content: center; }
+  
+  nav {
+    border-style: solid;
+    display: flex;
+    padding: 10px;
+    top: -1px; }
+  
+  header img {
+    border-radius: 70%;
+    width: 220px;
+    height: 110px; }
+  
+  h1, h2 {
+    text-align: center; }
+  
+  nav a {
+    text-decoration: none;
+    color: black;
+    width: 20%; }
+  
+  /*TEXTOS Y FONDOS///////////////////////////////////////////// */
+  .centrar {
+    text-align: center; }
+  
+  .letrasDeLinks {
+    font-size: 18px; }
+  
+  .letrasMedianas {
+    font-size: 22px; 
+  }
+  .letrasGrandes{
+    font-size: 26px; 
+    color: black;
+  }
+  .letraspequenas{
+    font-size: 20px;
+  }
+  
+  .letrasParaTitulos {
+    font-size: 30px;
+    color: #350c81; }
+  
+  .subTitulos {
+    font-size: 26px;
+    color: #350c81; 
+    padding-top: 10px;}
+  
+  .puntos {
+    font-size: 40px; }
+  p{
+    color: black;
+  }
+  /*SECCIONES DE PAGINA///////////////////////////////////////////// */
+  .section {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: black;
+    padding: 15px; }
+  
+  .form {
+    display: flex;
+    border-style: solid;
+    flex-direction: column;
+    padding: 15px;
+    background-image: linear-gradient(to right, #044369, #217b9e, #27ada9, #74cdf0);
+    text-align: center; }
+  
+  .formOpciones {
+    padding: 10px; }
+  
+  article {
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    background-image: linear-gradient(to right, #044369, #217b9e, #27ada9, #74cdf0); }
+  
+  section {
+    text-align: center; 
+    display: flex;}
+  
+  .productos {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap; }
+
+  .listado-favoritos{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    flex-wrap: wrap;
+  }
+  .recomendaciones {
+    display: block;
+    border-style: solid;
+    border-radius: 10%;
+    justify-content: center;
+    margin: 10px;
+    padding: 10px;
+    width: 300px; 
+    background-image: linear-gradient(to right, #044369, #217b9e, #27ada9, #74cdf0);}
+
+.imagen-producto{
+    width: 200px;
+    height: 150px;
+    border-radius: 5%;
+    padding: 5px;
+}
+
+.precio-producto{
+    font-size: 20px;
+}
+
+.titulo-producto{
+    font-size: 24px;
+}
+
+.descripcion-producto{
+  font-size: 14px;
+}
+
+
+  #precioTotal{
+    text-align: center;
+  }
+
+  #boton-carrito{
+    width: 50px;
+    height: 50px;
+    border-radius: 25%; 
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+  }
+.flex{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.datos{
+  color: red;
+}
+.margin{
+  margin: 10px;
+}
+#pagar{
+  background-color: rgb(0, 255, 85);
+  float: right;
+  padding: 5px;
+}
+
+#comprar{
+  background-color: rgb(0, 255, 85);
+  float: right;
+  padding: 5px;
+}
+
+#seccion-pago{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5px;
+  margin-right: 5px;
+  margin-left: 5px;
+}
+
+button svg{
+  margin-left: 0px;
+    
+}
+#botones{
+  background-color: rgb(0, 255, 85);
+  float: right;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.clase{
+  display: flex;
+  justify-content: space-between
+}
+.espacio{
+  padding-left: 550px;
+}
+
+.ola{
+  width: 100px;
+  justify-content: center;
+}
+
+  
+  /* Botones, inicio de sesion///////////////////////////////////////////// */
+  #usuarios {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+     }
+  
+  .botonesUsuarios {
+    margin: 15px;
+    height: 60px;
+    width: 450px;
+    background-image: linear-gradient(to right, #044369, #217b9e, #27ada9, #74cdf0);
+    border-style: solid;
+    border-radius: 5%; }
+  
+  
+  /*RESAGADOS///////////////////////////////////////////// */
+  ul {
+    list-style: none;
+    padding-right: 25px; }
+  
+  a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold; }
+  
+  div a {
+    text-decoration: none;
+    color: black; }
+  
+  .padding {
+    padding: 10px; }
+  
+  .bordes {
+    border-style: solid;
+    padding: 6px; }
+  
+
+  .paddingNav {
+    padding-right: 30px;
+    padding-left: 30px;
+    font-size: 18px;
+    color: black; }
+  
+  .idioma {
+    padding-right: 10px; }
+  
+  .fondo {
+    background-color: #eee8e8; 
+    margin-bottom: 0px;}
+  
+  .noMargin {
+    margin: 0px; }
+  
+  .noPadding {
+    padding: 0px; }
+  
+  .carrusel {
+    height: 650px; }
+  
+  .imgModal {
+    height: 480px;
+    width: 500px;
+    padding: 15px; }
+
+  .padding-top{
+    padding-top: 10px; }
+  
+  /* FOOTER/////////////////////////////////////////////// */
+  footer {
+    padding: 6px;
+    text-align: center;
+    border-style: solid; }
+  
+  /* logo////////////////////////////////////////////// */
+
+
+    
+  /*///////  color header, footer, nav //////////*/
+
+  footer {
+    background-image: linear-gradient(to right, #044369, #217b9e, #27ada9, #74cdf0); }
+  
+  nav {
+    background-image: linear-gradient(to right, #044369, #217b9e, #27ada9, #74cdf0); }
+  
+  thead{
+    background-image: linear-gradient(to right, #044369, #217b9e, #27ada9, #74cdf0);
+    border-style: solid;
+    height: 50px;
+    padding-bottom: 10px;
+  }
+  table{
+    width: 100%;
+  }
+  
+  td img{
+    padding: 10px;
+  }
+  
+  select {
+    background-color: #eee8e8; }
+  
+  img {
+    width: 150px;
+    height: 100px; }
+  
+  div img {
+    width: 200px;
+    height: 150px; }
+  
+  svg {
+    height: 25px;
+    width: 25px;
+    margin-left: 20px; }
+  
+  footer img {
+    border-radius: 70%;
+    width: 150px;
+    height: 100px; }
+  
+  .padding-left {
+    padding-left: 16px; }
+  
+  .padding-left-menu {
+    padding-left: 20px;
+    width: 150px; }
+  
+  .padding-left-peq {
+    padding-left: 10px; }
+  
+  .vh{
+    height: 50vh;
+  }
+  .precios{
+    font-size: 22px;
+    font-weight: bold; 
+  }
+  .productosPrueba p{
+    margin: 0px;
+  }
+  .recomendaciones p{
+    margin: 0px;
+  }
+.btn-favorito{
+  height: 30px;
+  width: 150px; 
+  border-radius: 10px;
+  background-color: aliceblue;
+  border: none;
+}
+.btn-borrar{
+  height: 30px;
+  width: 50px; 
+  border-radius: 10px;
+  border: none;
+}
+div p{
+  margin-bottom: 0px
+}
